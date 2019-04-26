@@ -1,4 +1,5 @@
 # THA4_DataMgmt
+This take home assignment analysis and workflow were developed by Chinelo Agbim
 
 Raw File: <pv_rooftop_county_lmi_pct_gwh.csv>
 
