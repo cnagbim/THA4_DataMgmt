@@ -15,7 +15,7 @@ percentage of pv solar energy potential that are on lmi resdidantial buidings?
 2)What's Pearson "r" coefficiant between social vulnerability index and 
 percentage of lmi resdidantial buidings suitable for pv solar?
 
-Results show moderate positive correlation for both question ~0.50. p values generated in ".R"script indicate significance of results
+RESULTS show moderate positive correlation for both question ~0.50. p values generated in ".R"script indicate significance of results
 This means the most vulnerable communities do not necessarily indicate solar potential alone. 
 
 Workflow: <tha4_workflow_agbim.io> and <tha4_workflow.png> worflow in 2 different formats
@@ -23,6 +23,8 @@ Workflow: <tha4_workflow_agbim.io> and <tha4_workflow.png> worflow in 2 differen
 R files:
 <THA4_DataMgmt.Rproj> project files to direct the script
 <tha4_full_script.R> code/script used to clean data and run analysis
+
+SOURCES:
 
 Raw File: <pv_rooftop_county_lmi_pct_gwh.csv>
 Data Source: National Renewable Energy Lab (NREL), Energy Affordability and Access in Focus
@@ -64,6 +66,8 @@ File: <SVI2016Documentation.pdf>
 File of data description/documentation that downloaded with the CDC's SVI file discussed above.
 Website: <https://svi.cdc.gov/data-and-tools-download.html>
 Date Accessed: 4/29/2019
+
+OUTPUTS:
 
 File: <merged_svi_pv_lmi.csv>
 Cleaned and merged file of social vulnerability index, the percentage of pv solar energy potential that are on lmi resdidantial buidings, 
