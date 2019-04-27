@@ -39,6 +39,8 @@ names(pv_lmi_v2)<-pv_lmi_headr
 #all.y=True ensures that only observations with matches are included in new dataset
 svi_pv_lmi_v1<-merge(x=svi_v1,y=pv_lmi_v2,by="cnty",all.y=TRUE)
 
+write.csv(svi_pv_lmi_v1,file = "merged_svi_pv_lmi.csv")
+
 #check datatype to ensure svi_score, lmi_pcnt_bldg, and lmi_pcnt_pv_potential
 str(svi_pv_lmi_v1)
 

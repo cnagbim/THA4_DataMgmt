@@ -1,0 +1,7 @@
+Variable_Name	DataType	Description	Unit
+cnty	factor	Texas county name	NA
+state.x	factor	Texas	NA
+svi_score	numerical	social vulnerability score	Percentile of vulnerability. Percentile is measured as decimal (10 % is 0.1). Higher score means higher vulnerability
+state.y	factor	Texas	NA
+lmi_pcnt_pv_potential	numerical	the percentage of pv solar energy potential that are on lmi resdidantial buidings	percentage of total solar power generation in gigawatts-hours
+lmi_pcnt_bldgs	numerical	percentage of lmi resdidantial buidings suitable for pv solar	percentage of low to moderate income residential buildings that have solar pv potential
